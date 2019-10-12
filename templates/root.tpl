@@ -55,7 +55,7 @@ name_opt                = $name_opt             # Subject DN display options
 cert_opt                = ca_default            # Certificate display options
 copy_extensions         = copy                  # Copy extensions from CSR
 x509_extensions         = signing_ca_ext        # Default cert extensions
-default_crl_days        = 1                     # How long before next CRL
+default_crl_days        = 360                   # How long before next CRL
 crl_extensions          = crl_ext               # CRL extensions
 
 [ match_pol ]
